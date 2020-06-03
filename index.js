@@ -1,5 +1,6 @@
 
-const largestProduct = (numX, numY) => {
-//type code here
+const toRna = (dnaStrand) => {
+    //type function here
 };
-module.exports = largestProduct
+
+module.exports = toRna
