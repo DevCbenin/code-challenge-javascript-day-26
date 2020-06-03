@@ -2,8 +2,6 @@
 
 const toRna = require('./index');
 
-import { toRna } from './rna-transcription'
-
 describe('Transcription', () => {
   test('empty rna sequence', () => {
     expect(toRna('')).toEqual('');
