@@ -1,23 +1,22 @@
-# Largest Series Product
+# RNA Transcription
 
-Given a string of digits, calculate the largest product for a contiguous
-substring of digits of length n.
+Given a DNA strand, return its RNA complement (per RNA transcription).
 
-For example, for the input `'1027839564'`, the largest product for a
-series of 3 digits is 270 (9 * 5 * 6), and the largest product for a
-series of 5 digits is 7560 (7 * 8 * 3 * 9 * 5).
+Both DNA and RNA strands are a sequence of nucleotides.
 
-Note that these series are only required to occupy *adjacent positions*
-in the input; the digits need not be *numerically consecutive*.
+The four nucleotides found in DNA are adenine (**A**), cytosine (**C**),
+guanine (**G**) and thymine (**T**).
 
-For the input `'73167176531330624919225119674426574742355349194934'`,
-the largest product for a series of 6 digits is 23520.
+The four nucleotides found in RNA are adenine (**A**), cytosine (**C**),
+guanine (**G**) and uracil (**U**).
 
-Implementation note:
-In case of invalid inputs to the 'largest_product' function
-your program should raise a ValueError with a meaningful error message.
-Feel free to reuse your code from the 'series' exercise!
+Given a DNA strand, its transcribed RNA strand is formed by replacing
+each nucleotide with its complement:
 
+* `G` -> `C`
+* `C` -> `G`
+* `T` -> `A`
+* `A` -> `U`
 
 ## Requirements
 
